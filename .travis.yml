@@ -1,0 +1,17 @@
+language: c
+
+before_install:
+    - sudo apt-get install zsh
+
+install:
+    - curl -L git.io/cli | L=peco/peco bash
+    - curl -L git.io/enhancd | bash
+
+before_script:
+    - source ~/.enhancd/enhancd.sh
+
+script:
+    - mkdir -p ~/a/b/c/d
+    - cd ~/a/b/c
+    - cd ~
+    - cd c
