@@ -1,7 +1,7 @@
 language: objective-c
 
 before_install:
-    - sudo apt-get install zsh
+    - brew install zsh
 
 install:
     - brew install peco
