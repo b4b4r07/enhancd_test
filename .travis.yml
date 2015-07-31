@@ -4,6 +4,7 @@ before_install:
     - brew install zsh
 
 install:
+    - brew tap peco/peco
     - brew install peco
     - curl -L git.io/enhancd | bash
 
