@@ -1,10 +1,10 @@
-language: c
+language: objective-c
 
 before_install:
     - sudo apt-get install zsh
 
 install:
-    - curl -L git.io/cli | L=peco/peco bash
+    - brew install peco
     - curl -L git.io/enhancd | bash
 
 before_script:
